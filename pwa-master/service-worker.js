@@ -1,7 +1,7 @@
 var files = [
-  "/pwa-master/pwa/index.html",
-  "/pwa-master/pwa/manifest.json",
-  "/pwa-master/pwa/styles/inline.css"
+  "/Desafio-pwa/pwa-master/index.html",
+  "/Desafio-pwa/pwa-master/manifest.json",
+  "/Desafio-pwa/pwa-master/styles/inline.css"
 ];
 // dev only
 if (typeof files == 'undefined') {
@@ -10,7 +10,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'Kappa';
+var CACHE_NAME = 'ace';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
